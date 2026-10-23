@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "strict": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "outDir": "dist",
+    "target": "es6",
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "allowJs": true,
+    "noImplicitAny": true
+  },
+  "hooks": ["copy-files"],
+  "include": [
+    "src",
+  ]
+}
